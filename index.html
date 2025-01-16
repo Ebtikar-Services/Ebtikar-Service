@@ -19,34 +19,33 @@
 
     <title>وايت شفط صرف صحي بالرياض</title>
 
-    <!-- Google tag (gtag.js) -->
-    <script
-      async
-      src="https://www.googletagmanager.com/gtag/js?id=AW-11549044229"
-    ></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag() {
-        dataLayer.push(arguments);
-      }
-      gtag("js", new Date());
+  <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=AW-11553249919"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
 
-      gtag("config", "AW-11549044229");
-    </script>
-    <!-- Google tag (gtag.js) -->
-    <!-- <script
-      async
-      src="https://www.googletagmanager.com/gtag/js?id=G-YSNY06TMLX"
-    ></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag() {
-        dataLayer.push(arguments);
-      }
-      gtag("js", new Date());
+  gtag('config', 'AW-11553249919');
+</script>
 
-      gtag("config", "G-YSNY06TMLX");
-    </script> -->
+    <!-- Event snippet for مكالمة من الموقع conversion page
+In your html page, add the snippet and call gtag_report_conversion when someone clicks on the chosen link or button. -->
+<script>
+function gtag_report_conversion(url) {
+  var callback = function () {
+    if (typeof(url) != 'undefined') {
+      window.location = url;
+    }
+  };
+  gtag('event', 'conversion', {
+      'send_to': 'AW-11553249919/3CbsCP7ExIoaEP-0goUr',
+      'event_callback': callback
+  });
+  return false;
+}
+</script>
+
   </head>
 
   <body class="">
